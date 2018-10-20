@@ -1,3 +1,4 @@
+@Smoke
 Feature: Login to the Application
 
 Scenario: User login to the application using valid credentials

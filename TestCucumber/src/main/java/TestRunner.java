@@ -8,7 +8,8 @@ import cucumber.api.junit.Cucumber;
 
 @CucumberOptions(			
 		features = "src/features",
-		glue = {"stepDefinitions"}		
+		glue = {"stepDefinitions"},
+		tags = {"@Smoke"}
 		)
 
 public class TestRunner {
